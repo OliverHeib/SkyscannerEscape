@@ -1,0 +1,44 @@
+
+/* Style the navagation */
+
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    background-color: #333;
+                }
+                
+                li {
+                    float: left;
+                }
+                
+                li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                }
+                
+                li a:hover {
+                    background-color: #111;
+                }
+
+
+
+@media (max-width: 800px)	{
+	nav{
+		width: 80%; /* set to 80 percent so the all the word are displayed at smallest screen on browser */
+	
+	}
+
+	nav li {
+		display: block; /* enables the list to go portrait style from horizontal */
+	}
+	
+}
+
+@media only screen (max-width: 400px) { /* This media enquiry to make my website mobile accessible */
+
+}
