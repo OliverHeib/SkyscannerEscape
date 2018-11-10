@@ -1,20 +1,62 @@
-h1,p{
-position:absolute;
-text-align: center;
-padding:40px;
-margin:40px;
+body{
+    margin: 0px;
+    padding:0px;
 }
+
+h1,p,ul,#mapImage{
+    position:absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h1{
+    margin-top:10px;
+    left:20px;
+    padding:5px;
+    width:100%;
+}
+h1:hover{
+    transition-duration: 0.2s;
+}
+
 p{
-    background-color:#9fbff2;
+    margin-top:60px;
+    padding-top:2px;
 }
-p:hover{
+
+ul{
+    position:asolute;
+    margin-top:75px;
+    color:grey;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
-P:not(hover){
+li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #mapImage{
-    padding:450px;
+    padding-top: 100px;
+    margin-top:100px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:50px;
     width: 600px;;
     height:400px;
 }
 
+table {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse:collapse;
+    position:absolute;
+    margin:50px;
+    margin-top:520px;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+td{
+    color:grey;
+}
