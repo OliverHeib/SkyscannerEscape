@@ -1,60 +1,24 @@
-body{
-    margin: 0px;
+head,body,#header{
     padding:0px;
+    margin:0px;
+    background-color:black;
 }
-
-h1,p,ul{
-    position:absolute;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-h1{
-    margin-top:10px;
-    left:20px;
-    padding:5px;
-    width:100%;
+h3{
     text-align: center;
-
+    color:white;
+    background-color:black;
+    padding:8px;
 }
-h1:hover{
-    transition-duration: 0.2s;
-}
 
-p{
-    margin-top:60px;
-    padding-top:2px;
+h1{
+    text-align: center;
 }
 
 ul{
-    position:asolute;
-    margin-top:75px;
-    color:grey;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-li{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position:relative;
-    margin-left:50px;
+    position: relative;
 }
 
-table {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-collapse:collapse;
-    position:absolute;
-    margin:50px;
-    margin-top:520px;
-}
-
-td, th {
-    text-align: left;
-    padding: 8px;
-}
-
-td{
-    color:black;
-}
-
-#mapImage{
-    margin-top: 100px;
-    margin-left:30px;
+header{
+    background-color:black;
+    color:white;
 }
