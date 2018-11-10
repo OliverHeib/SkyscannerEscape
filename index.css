@@ -3,11 +3,9 @@ head,body,#header{
     margin:0px;
     background-color:black;
 }
-h3{
-    text-align: center;
-    color:white;
-    background-color:black;
-    padding:8px;
+
+h1,h3,ul,li,table{
+    color:rgba(255, 255, 255, 0.5);
 }
 
 h1{
@@ -15,10 +13,25 @@ h1{
 }
 
 ul{
-    position: relative;
+    position: absolute;
+    margin:auto;
+    width:100%;
 }
 
 header{
     background-color:black;
     color:white;
+}
+
+#mapImage{
+    position: absolute;
+    top:345px;
+    padding:20px;
+    border-radius:10px;
+}
+
+table{
+    position: absolute;
+    padding:40px;
+    top:670px;
 }
