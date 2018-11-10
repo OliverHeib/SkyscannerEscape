@@ -1,3 +1,20 @@
-#travelID{
+h1,p{
+position:absolute;
 text-align: center;
+padding:40px;
+margin:40px;
 }
+p{
+    background-color:#9fbff2;
+}
+p:hover{
+}
+P:not(hover){
+}
+
+#mapImage{
+    padding:450px;
+    width: 600px;;
+    height:400px;
+}
+
